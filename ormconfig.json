@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "192.168.0.234",
+  "port": 3306,
+  "username": "root",
+  "password": "123456",
+  "database": "koa-test-zmy",
+  "synchronize": true,
+  "entities": ["src/entity/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
